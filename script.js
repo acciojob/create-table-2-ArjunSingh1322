@@ -23,7 +23,7 @@ function createTable() {
         let tr = document.createElement("tr");
         for (let j = 0; j < cols; j++) {
             let td = document.createElement("td");
-            td.innerText = `row${i}-column${j}`; 
+            td.innerText = `Row${i}-Column${j}`; 
             td.style.padding = "10px"; 
             tr.appendChild(td);
         }
